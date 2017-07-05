@@ -7,6 +7,7 @@
     <title>Larevel Test</title>
 </head>
 <body>
+
     @yield('content')
     
 </body>
