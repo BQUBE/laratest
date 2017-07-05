@@ -5,6 +5,8 @@ Route::get('/tasks', 'TasksController@index');
 
 Route::get('/tasks/{task}', 'TasksController@show');
 
-Route::get('/posts', 'PostsController@show');
+Route::get('/', 'PostsController@index');
+
+Route::get('/post', 'PostsController@show');
 
 
